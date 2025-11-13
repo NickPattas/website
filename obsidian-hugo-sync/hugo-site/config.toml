@@ -1,0 +1,50 @@
+baseURL = "https://nickpattas.github.io/np_website/"
+languageCode = 'en-US'
+defaultContentLanguage = "en"
+title = 'Nick Pattas'
+theme = 'nomad-tech'
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  tag = "tags"
+
+# Only English language
+[languages.en]
+  languageCode = "en-US"
+  title = "Nick Pattas - Technical Artist & VFX"
+  weight = 1
+  
+  [languages.en.params]
+    author = "Nick Pattas"
+    logo = "NICK PATTAS"
+
+[params]
+  artstation = "https://www.artstation.com/nickpattas"
+  linkedin = "www.linkedin.com/in/nick-pattas-162672246"
+  subtitle = "Technical Artist • VFX"
+  description = "nickpattas6@gmail.com"
+  profilePhoto = "/images/profile.jpg"
+  
+
+# Menu configuration
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]

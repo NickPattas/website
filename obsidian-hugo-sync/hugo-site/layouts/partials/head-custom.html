@@ -1,0 +1,4 @@
+{{ if templates.Exists "partials/head.html" }}
+  {{ partialCached "head.html" . }}
+{{ end }}
+<link rel="stylesheet" href="/css/custom.css">

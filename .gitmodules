@@ -1,0 +1,3 @@
+[submodule "obsidian-hugo-sync/hugo-site/themes/nomad-tech"]
+	path = obsidian-hugo-sync/hugo-site/themes/nomad-tech
+	url = https://github.com/[theme-author]/nomad-tech.git
