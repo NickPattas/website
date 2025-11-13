@@ -1,3 +1,3 @@
-[submodule "obsidian-hugo-sync/hugo-site/themes/nomad-tech"]
-	path = obsidian-hugo-sync/hugo-site/themes/nomad-tech
-	url = https://github.com/m03315/nomad-tech.git
+[submodule "obsidian-hugo-sync/hugo-site/themes/blowfish"]
+	path = obsidian-hugo-sync/hugo-site/themes/blowfish
+	url = https://github.com/nunocoracao/blowfish.git
