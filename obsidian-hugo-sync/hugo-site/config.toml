@@ -1,4 +1,4 @@
-baseURL = "https://nickpattas.github.io/np_website/"
+baseURL = "https://nickpattas.github.io/website/"
 languageCode = 'en-US'
 defaultContentLanguage = "en"
 title = 'Nick Pattas'
