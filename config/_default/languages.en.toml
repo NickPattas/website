@@ -9,8 +9,8 @@ title = "Nick Pattas"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "F:\Dev\MyWebsite\IMG_6170.jpeg"
-  # secondaryLogo = "F:\Dev\MyWebsite\IMG_6170.jpeg"
+  logo = "img/IMG_6170.png"
+  # secondaryLogo = "img/logo"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
