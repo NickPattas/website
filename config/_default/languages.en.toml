@@ -22,6 +22,7 @@ title = "Nick Pattas"
   headline = "Technical Art & VFX"
 #   bio = "A little bit about you"
   links = [
+    { artstation = "https://www.artstation.com/nickpattas" },
     {linkedin = "https://linkedin.com/in/nick-pattas-162672246"}
   ]
 #   links = [
