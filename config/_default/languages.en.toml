@@ -24,7 +24,7 @@ title = "Nick Pattas"
   links = [
     { artstation = "https://www.artstation.com/nickpattas" },
     {linkedin = "https://linkedin.com/in/nick-pattas-162672246"},
-    { email = "mailto:nickpattas6@.com" }
+    { email = "nickpattas6@.com" }
   ]
 #   links = [
 #     { email = "mailto:nickpattas6@.com" },
