@@ -20,11 +20,10 @@ title = "Nick Pattas"
   image = "img/IMG_6168.jpeg"
   imageQuality = 96
   headline = "Technical Art & VFX"
-#   bio = "A little bit about you"
+  bio = "nickpattas6@gmail.com"
   links = [
     { artstation = "https://www.artstation.com/nickpattas" },
-    {linkedin = "https://linkedin.com/in/nick-pattas-162672246"},
-    { email = "nickpattas6@.com" }
+    {linkedin = "https://linkedin.com/in/nick-pattas-162672246"}
   ]
 #   links = [
 #     { email = "mailto:nickpattas6@.com" },
