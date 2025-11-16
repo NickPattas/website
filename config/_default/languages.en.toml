@@ -23,7 +23,8 @@ title = "Nick Pattas"
 #   bio = "A little bit about you"
   links = [
     { artstation = "https://www.artstation.com/nickpattas" },
-    {linkedin = "https://linkedin.com/in/nick-pattas-162672246"}
+    {linkedin = "https://linkedin.com/in/nick-pattas-162672246"},
+    { email = "mailto:nickpattas6@.com" }
   ]
 #   links = [
 #     { email = "mailto:nickpattas6@.com" },
