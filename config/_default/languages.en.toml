@@ -9,7 +9,7 @@ title = "Nick Pattas"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/IMG_6170.png"
+  # logo = "img/IMG_6170.png"
   # secondaryLogo = "img/logo"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
@@ -17,7 +17,7 @@ title = "Nick Pattas"
 [params.author]
   name = "Nick Pattas"
   email = "nickpattas6@gmail.com"
-  image = "img/blowfish_logo.png"
+  image = "img/IMG_6170.png"
   imageQuality = 96
   headline = "Technical Artist"
 #   bio = "A little bit about you"
