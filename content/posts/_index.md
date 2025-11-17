@@ -4,5 +4,5 @@ title: "My Blog"
 
 ---
 
-Breakdowns and thoughts on my projects and experiments.
+Breakdowns and thoughts on my projects and experimentations.
 
