@@ -1,7 +1,6 @@
 ---
 
 title: "My Blog"
-layout: "simple"
 
 ---
 
