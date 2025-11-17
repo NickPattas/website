@@ -1,1 +1,0 @@
-A dispatch call tells the GPU to run a [[Compute Shader]] with a specified number of work groups, independent of rendering. It's part of **general-purpose GPU computing** (GPGPU), not the [[Graphics Pipeline]].

@@ -1,1 +1,0 @@
-A draw call tells the GPU to **render geometry** such as triangles, lines, or points—using the [[Graphics Pipeline]]. It runs shaders like **vertex**, **fragment**, **geometry**, etc., and results in **an image being drawn to a framebuffer or screen.**
