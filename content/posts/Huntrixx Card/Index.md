@@ -1,13 +1,11 @@
 
 ---
 
-title: HUNTRIXX CARD
-date: 18-11-2025
+title: "HUNTRIXX CARD"
+description: "A study on complex shaders for digital cards"
 tags: ["shaders", "unrealengine", "blueprints", "materials"]
 
 ---
-
-A study on complex shaders for digital cards.
 
 The key components of this shader are the *pseudo fluid shader* inside the card's frame and the *iridescence* effect that is applied on specific parts of the card.
 
