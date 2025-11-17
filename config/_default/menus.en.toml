@@ -13,7 +13,7 @@
 [[main]]
   name = "About"
   pageRef = "Bio"
-  weight = 5
+  weight = 10
 
 [[main]]
   name = "Blog"
