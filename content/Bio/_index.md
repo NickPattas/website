@@ -5,4 +5,3 @@ layout: "simple"
 
 ---
 
-I am who I am.
