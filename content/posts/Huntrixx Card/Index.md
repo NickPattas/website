@@ -20,7 +20,7 @@ To get the desired effect the first thing that we should make is a **World Posit
 
 The two parameters that are driving the rotation called **WobbleX** and **WobbleY** respectively and they are actually the most important part of the effect.
 
-![](Posts/"Huntrixx Card"/asset/img20251117150458.png)
+![](/assets/img20251117150458.png)
 
 ![[Pasted image 20251117150551.png]]
 
