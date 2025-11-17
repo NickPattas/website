@@ -1,7 +1,8 @@
 
 ---
-Title: HUNTRIXX CARD
-Tags: #shaders #unrealengine #blueprints #materials
+
+title: HUNTRIXX CARD
+tags: ["shaders", "unrealengine", "blueprints", "materials"]
 
 ---
 
