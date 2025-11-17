@@ -2,7 +2,6 @@
 ---
 
 title: "HUNTRIXX CARD"
-date: 11-18-2025
 tags: ["shaders", "unrealengine", "blueprints", "materials"]
 
 ---
