@@ -1,6 +1,6 @@
 ---
 
-tile: "STATIC WEBISTE WITH GITHUB AND DOCKER"
+tile: "MY WEBSITE"
 
 ---
 
