@@ -1,13 +1,95 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Blowfish</title>
+    <title>Tags on Nick Pattas</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Blowfish</description>
+    <description>Recent content in Tags on Nick Pattas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2025 </copyright>
+    <managingEditor>nickpattas6@gmail.com (Nick Pattas)</managingEditor>
+    <webMaster>nickpattas6@gmail.com (Nick Pattas)</webMaster>
+    <copyright>© 2025 Nick Pattas</copyright>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Blueprints</title>
+      <link>http://localhost:1313/tags/blueprints/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nickpattas6@gmail.com (Nick Pattas)</author>
+      <guid>http://localhost:1313/tags/blueprints/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>http://localhost:1313/tags/development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nickpattas6@gmail.com (Nick Pattas)</author>
+      <guid>http://localhost:1313/tags/development/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://localhost:1313/tags/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nickpattas6@gmail.com (Nick Pattas)</author>
+      <guid>http://localhost:1313/tags/docker/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>http://localhost:1313/tags/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nickpattas6@gmail.com (Nick Pattas)</author>
+      <guid>http://localhost:1313/tags/github/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/tags/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nickpattas6@gmail.com (Nick Pattas)</author>
+      <guid>http://localhost:1313/tags/hugo/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Materials</title>
+      <link>http://localhost:1313/tags/materials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nickpattas6@gmail.com (Nick Pattas)</author>
+      <guid>http://localhost:1313/tags/materials/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Shaders</title>
+      <link>http://localhost:1313/tags/shaders/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nickpattas6@gmail.com (Nick Pattas)</author>
+      <guid>http://localhost:1313/tags/shaders/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Unrealengine</title>
+      <link>http://localhost:1313/tags/unrealengine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nickpattas6@gmail.com (Nick Pattas)</author>
+      <guid>http://localhost:1313/tags/unrealengine/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>

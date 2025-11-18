@@ -1,6 +1,7 @@
 ---
 
-tile: "MY WEBSITE"
+title: "My Website"
+tags: ["development", "docker", "hugo", "github"]
 
 ---
 

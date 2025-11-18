@@ -1,7 +1,7 @@
 
 ---
 
-title: "HUNTRIXX CARD"
+title: "Huntrixx Collectible Card"
 tags: ["shaders", "unrealengine", "blueprints", "materials"]
 
 ---
