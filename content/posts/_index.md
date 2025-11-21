@@ -1,9 +1,13 @@
 ---
 
-title: "My Blog"
+title: "Welcome to my Blog"
 
 ---
 
 {{< lead >}}
-Personal projects & experimentations
+Here you can read about my personal projects and experimentations
 {{< /lead >}}
+
+
+
+

@@ -1,9 +1,5 @@
-
 ---
-
 title: "Huntrixx Collectible Card"
-tags: ["shaders", "unrealengine", "blueprints", "materials"]
-
 ---
 
 A study on complex shaders for digital cards
@@ -21,8 +17,7 @@ To get the desired effect the first thing that we should make is a **World Posit
 The two parameters that are driving the rotation called **WobbleX** and **WobbleY** respectively and they are actually the most important part of the effect.
 
 ![](assets/img/20251117150458.png)
-
-![[Pasted image 20251117150551.png]]
+![](assets/img/20251117150551.png)
 
 The height of the liquid is based on a simple gradient on** Z coordinates**. To make this work we should subtract the **Position** of the object from the World Position to, basically pin the mask on the object and don't be relative to world's coordinates.
 
@@ -99,3 +94,6 @@ Whit this set up is really easy to create multiple complex masking systems for d
 This project was just a study on shaders and complex masks. Although, it is not meant to be a actual game asset I tried to keep it as efficient as possible and built the shader as a real procedural tool. 
 
 I hope that you found this breakdown interesting and inspiring. If you try it for yourself or have anything similar already developed don't hesitate to reaching out to discuss about it. There are always new tips and tricks that I would love to learn.
+
+
+---
