@@ -2,7 +2,7 @@
 title: "HUNTR/X Collectible Card"
 ---
 
-{{<youyubeLite id="MX0tjtkpPGI" label="Blowfish-tools demo">}}
+{{<youyubeLite MX0tjtkpPGI>}}
 
 A study on complex shaders for digital cards
 
