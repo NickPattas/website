@@ -2,7 +2,7 @@
 title: "HUNTR/X Collectible Card"
 ---
 
-{{<youyubeLite MX0tjtkpPGI>}}
+{{< youtube MX0tjtkpPGI >}}
 
 A study on complex shaders for digital cards
 
