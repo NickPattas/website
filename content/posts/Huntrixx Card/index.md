@@ -80,13 +80,12 @@ To make sure that the different effects will be applied on the specified areas, 
 
 A common approach would be to create different materials for each part of the card but I don't believe that such a solution is reasonable for this kind of asset. Instead I used Vertex Colors and UV channels to separate the three main areas of the cards.
 
-#![](assets/img/20251117160056.png)
 <img src="assets/img/20251117160056.png" width="50%">
-![](assets/img/20251117160124.png)
+<img src="assets/img/20251117160124.png" width="100%">
 
 Additionally, I used different texture based masks to allow even more control over the shader.
-![](assets/img/20251117160401.png)
-![](assets/img/20251117160316.png)
+<img src="assets/img/20251117160401.png" width="50%">
+<img src="assets/img/20251117160316.png" width="50%">
 ![](assets/img/20251117160706.png)
 
 With this setup it is really easy to create multiple complex masking systems for different kinds of effects procedurally.
