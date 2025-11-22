@@ -25,6 +25,11 @@ enableEmoji = true
 [imaging]
   anchor = 'Center'
 
+[privacy]
+  [privacy.youTube]
+    disable = false
+    privacyEnhanced = false
+    
 [taxonomies]
   tag = "tags"
   category = "categories"
