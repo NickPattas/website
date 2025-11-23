@@ -1,5 +1,6 @@
 ---
 title: "HUNTR/X Collectible Card"
+date: 2025-11-22
 ---
 
 {{< youtube MX0tjtkpPGI >}}
