@@ -2,23 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to my Blog on Nick Pattas</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://localhost:1313/website/posts/</link>
     <description>Recent content in Welcome to my Blog on Nick Pattas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>nickpattas6@gmail.com (Nick Pattas)</managingEditor>
     <webMaster>nickpattas6@gmail.com (Nick Pattas)</webMaster>
     <copyright>© 2025 Nick Pattas</copyright>
-    <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/website/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Study on Chaos</title>
+      <link>http://localhost:1313/website/posts/astudyonchaos/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+      <author>nickpattas6@gmail.com (Nick Pattas)</author>
+      <guid>http://localhost:1313/website/posts/astudyonchaos/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/website/posts/astudyonchaos/featured.svg" />
+    </item>
     
     <item>
       <title>HUNTR/X Collectible Card</title>
-      <link>http://localhost:1313/posts/huntrixx-card/</link>
+      <link>http://localhost:1313/website/posts/huntrixx-card/</link>
       <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
       <author>nickpattas6@gmail.com (Nick Pattas)</author>
-      <guid>http://localhost:1313/posts/huntrixx-card/</guid>
+      <guid>http://localhost:1313/website/posts/huntrixx-card/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/huntrixx-card/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/website/posts/huntrixx-card/featured.svg" />
     </item>
     
   </channel>
