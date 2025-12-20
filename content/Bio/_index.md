@@ -5,7 +5,7 @@ layout: "simple"
 
 ---
 
-Hey there! I’m Nick Pattas, a VFX Artist Technical Artist working with Unreal Engine since 2021.
+Hey there! I’m Nick Pattas, a VFX Technical Artist working with Unreal Engine since 2021.
 I was part of the VFX team at Number 9 Greece for the animated series Heroes in Training by Redefine Originals.
 In 2024, I worked as a VFX Artist for the metroidvania game Somber Echoes by RockPocket Games.
 I’m currently working on a new horror title, delivering visually striking and occationaly creepy visual effects.
