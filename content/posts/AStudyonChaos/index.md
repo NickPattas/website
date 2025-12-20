@@ -5,7 +5,7 @@ date: 2025-12-20
 
 {{< youtube yqedelWJVEk >}}
 
-The intention behind this small project was to study different possible ways of creating **randomized behaviors** inside **Unreal Engine's Material Edito**.
+The intention behind this small project was to study different possible ways of creating **randomized behaviors** inside **Unreal Engine's Material Editor**.
 
 I wanted to use nothing but **Textures**, avoiding sine, cosine nodes, which are common used to generate noisy-random logic but are often best avoided due to their **performance cost**.
 
