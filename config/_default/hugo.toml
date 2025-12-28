@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish" # UNCOMMENT THIS LINE
-baseURL = "https://nickpattas.com"
+baseURL = "https://nickpattas.com/"
 #baseURL = "http://localhost:1313/"
 defaultContentLanguage = "en"
 
