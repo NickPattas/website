@@ -46,7 +46,7 @@ jobs:
           extended: true  # Blowfish requires extended Hugo
 
       - name: Build Hugo site
-        run: hugo --minify --baseURL "https://nickpattas.github.io/website/"
+        run: hugo --minify --baseURL "https://nickpattas.com/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
