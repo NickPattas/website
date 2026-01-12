@@ -1,0 +1,60 @@
+---
+title: "Spider Character with Procedural Egg Shader"
+date: 2026-01-12
+---
+
+{{< youtube BQO5H2R9aYQ >}}
+
+{{< youtube qtwzmpCoJxA >}}
+
+In this personal project, I started with what seemed like a simple idea, a spider egg shader with infinite tiny spiders running around inside of it. Turns out, it became a great excuse to sharpen my skills across the entire 3D art pipeline.
+
+## Where It All Started
+
+The core challenge was creating a sense of depth and movement inside an opaque sphere. I used a black and white spider flipbook to handle the looping animation, then converted the UVs to polar coordinates. The Fresnel node controlled the distortion amount toward the edges, creating that natural falloff you'd expect from looking through a curved surface.
+
+The real trick was adding a Bump Offset node to control texture distortion. This gave me a pseudo-shadow effect where the spider shadows stretch and lengthen toward the edges of the egg, making those spiders feel like they're actually crawling around inside a three-dimensional space rather than just scrolling across a flat texture.
+
+![](assets/img/125033.png)
+
+The flipbook setup uses a custom Randomizer node to offset the animation timing per instance. I merged the egg spheres into an instance actor and used Per Instance Random node. Each egg gets its own unique seed, so no two eggs show the same "spider animation" pattern at the same time.
+
+![](assets/img/124950.png)
+
+I also built a Flicker system that adds subtle color variation and intensity shifts to the eggs, giving them that organic, living quality.
+
+![](assets/img/125221.png)
+
+## Building the Mother Spider
+
+No effect is truly working out of context.
+
+To give the eggs context and a world to exists, I decided to create the Mother Spider.
+
+Once I had the eggs working, they needed a home. Enter the Mother Spider.
+
+The entire character was sculpted, retopologized, and rigged inside Blender. I went for a stylized look with exaggerated proportions and a crystal-like look that matches the "eggs" appearance and colors.
+
+![](assets/img/Spider_Block.png)
+![](assets/img/Spider_HP.png)
+![](assets/img/Retopopng.png)
+![](assets/img/Rig.png)
+
+The texturing was made inside Substance Painter to get the exact stylized crystal look that I wanted.
+
+I used some additional mask from Thickness and AO to add some pseudo SSS to the final shader inside UE.
+## Bringing It All Together in Unreal
+
+The environment, control rig and animation of the spider was made entirely inside Unreal Engine 5.7.
+
+The rig is straightforward but effective. A full IK system for all eight legs plus facial controls for the eyes and fangs. Just a basic control rig for the video presentation. Nothing fancy, but enough to get convincing movement for the shot.
+
+![](assets/img/130024.png)
+![](assets/img/130049.png)
+![](assets/img/130207.png)
+
+## Final Thoughts
+
+This project started as a shader experiment and ended up being a full character pipeline exercise. It was a fun journey with plenty of learning and experimentation along the way. I hope that other artists will find one or two interesting tricks through this project too.
+
+To all fellow technical artists out there, don't forget to always return to the roots of the craft and keep sharpening your skills on 3D art workflows holistically.
