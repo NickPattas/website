@@ -9,10 +9,20 @@
     <managingEditor>nickpattas6@gmail.com (Nick Pattas)</managingEditor>
     <webMaster>nickpattas6@gmail.com (Nick Pattas)</webMaster>
     <copyright>© 2026 Nick Pattas</copyright>
-    <lastBuildDate>Mon, 12 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Spider Character with Procedural Egg Shader</title>
+      <title>Magnifying Glass Part 1</title>
+      <link>http://localhost:1313/posts/magnifying-glass/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <author>nickpattas6@gmail.com (Nick Pattas)</author>
+      <guid>http://localhost:1313/posts/magnifying-glass/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/magnifying-glass/featured.png" />
+    </item>
+    
+    <item>
+      <title>Into the Nest</title>
       <link>http://localhost:1313/posts/into-the-nest/</link>
       <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
       <author>nickpattas6@gmail.com (Nick Pattas)</author>
