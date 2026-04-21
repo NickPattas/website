@@ -6,10 +6,6 @@ date: 2026-04-21
 
 {{< youtube g3TGO4nfVJ0 >}}
 
-<video width="100%" controls>
-  <source src="mg_breakdown.mp4" type="video/mp4">
-</video>
-
 The goal of this project was to create a procedural magnifying glass shader that actually let me art direct properties like image distortion, magnifying amount and reflections on the lens.
 
 ## Sample the Scene Color
