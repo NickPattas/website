@@ -21,10 +21,6 @@ The main goal was for the shader to be lightweight, efficient and easy to use.
 
 {{< youtube g3TGO4nfVJ0 >}}
 
-<video width="100%" controls>
-  <source src="mg_breakdown.mp4" type="video/mp4">
-</video>
-
 The scene color was sampled using Niagara's GBuffer Interface and stored in a Render Target Texture to then be sampled in the material.
 
 This technique allows the user to have maximum control over the size and resolution of the texture.
