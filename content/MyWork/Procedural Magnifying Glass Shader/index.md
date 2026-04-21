@@ -11,15 +11,17 @@ Softwares used:
 * Unreal Engine 5.7
 * Houdini
 
+{{< youtube g3TGO4nfVJ0 >}}
+
 The idea was to create a procedural shader that allows me to art direct the physical properties of a lens like distortions, magnification and reflections.
+
+{{< youtube nO7R6-UtW2w >}}
 
 The magnifying glass was modeled and textured procedurally in Houdini using the Copernicus system of Houdini 21.0, making it easy to create iterations fast and with full control.
 
 {{< youtube E4V9exKrGJ4 >}}
 
 The main goal was for the shader to be lightweight, efficient and easy to use.
-
-{{< youtube g3TGO4nfVJ0 >}}
 
 The scene color was sampled using Niagara's GBuffer Interface and stored in a Render Target Texture to then be sampled in the material.
 
