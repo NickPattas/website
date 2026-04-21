@@ -14,21 +14,6 @@ Software used:
 For this effect I had to create a fire-beam that starts from a sun-like sphere and tracks the player within a specified angle.
 The player in this platformer metroidvania was able to jump, teleport and fly around the level so every part of the effect could potentially be visible.
 
-Reference-Blocking
-<video width="100%" controls>
-  <source src="blocking.mp4" type="video/mp4">
-</video>
-
-My draft
-<video width="100%" controls>
-  <source src="lazer_beam_attack_fx_v01.mp4" type="video/mp4">
-</video>
-
-Final in-game effect
-<video width="100%" controls>
-  <source src="final.mp4" type="video/mp4">
-</video>
-
 For the beam I used three ribbon emitters in Niagara with the same material and a fourth with a flare effect.
 
 Each emitter had slightly different values like color, emissive intensity and texture stretching amount to create a more detailed and interesting final output.
