@@ -6,13 +6,14 @@ showWordCount: false
 orderBy: "weight"
 weight: 1
 ---
-
 Software used:
 * Unreal Engine 5.4
 * Photoshop
 
 For this effect I had to create a fire-beam that starts from a sun-like sphere and tracks the player within a specified angle.
 The player in this platformer metroidvania was able to jump, teleport and fly around the level so every part of the effect could potentially be visible.
+
+![](assets/img/final.png)
 
 For the beam I used three ribbon emitters in Niagara with the same material and a fourth with a flare effect.
 
