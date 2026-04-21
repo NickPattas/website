@@ -6,6 +6,8 @@ date: 2026-04-21
 
 {{< youtube g3TGO4nfVJ0 >}}
 
+{{< youtube NO09Zi1JY8c >}}
+
 The goal of this project was to create a procedural magnifying glass shader that actually let me art direct properties like image distortion, magnifying amount and reflections on the lens.
 
 ## Sample the Scene Color
