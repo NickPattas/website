@@ -13,10 +13,6 @@ Softwares used:
 
 The idea was to create a procedural shader that allows me to art direct the physical properties of a lens like distortions, magnification and reflections.
 
-<video width="100%" controls>
-  <source src="MagnifyingGlass_Turntable.mp4" type="video/mp4">
-</video>
-
 The magnifying glass was modeled and textured procedurally in Houdini using the Copernicus system of Houdini 21.0, making it easy to create iterations fast and with full control.
 
 {{< youtube E4V9exKrGJ4 >}}
