@@ -3,19 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/posts/magnifying-glass/</loc>
-    <lastmod>2026-04-04T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/mywork/sun-fire-beam-for-somber-echoes/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/mywork/randomized-lightning-vfx/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/mywork/procedural-magnifying-glass-shader/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/magnifying-glass-part-2/</loc>
+    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-04T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/magnifying-glass-part-1/</loc>
     <lastmod>2026-04-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -35,6 +56,11 @@
   <url>
     <loc>http://localhost:1313/posts/huntrixx-card/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/mywork/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

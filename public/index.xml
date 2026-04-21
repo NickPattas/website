@@ -9,16 +9,56 @@
     <managingEditor>nickpattas6@gmail.com (Nick Pattas)</managingEditor>
     <webMaster>nickpattas6@gmail.com (Nick Pattas)</webMaster>
     <copyright>© 2026 Nick Pattas</copyright>
-    <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Magnifying Glass Part 1</title>
-      <link>http://localhost:1313/posts/magnifying-glass/</link>
+      <title>Sun Fire Beam - Somber Echoes</title>
+      <link>http://localhost:1313/mywork/sun-fire-beam-for-somber-echoes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nickpattas6@gmail.com (Nick Pattas)</author>
+      <guid>http://localhost:1313/mywork/sun-fire-beam-for-somber-echoes/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/mywork/sun-fire-beam-for-somber-echoes/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Randomized Lightning VFX - Personal Project</title>
+      <link>http://localhost:1313/mywork/randomized-lightning-vfx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nickpattas6@gmail.com (Nick Pattas)</author>
+      <guid>http://localhost:1313/mywork/randomized-lightning-vfx/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/mywork/randomized-lightning-vfx/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Procedural Magnifying Glass Shader - Personal Project</title>
+      <link>http://localhost:1313/mywork/procedural-magnifying-glass-shader/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nickpattas6@gmail.com (Nick Pattas)</author>
+      <guid>http://localhost:1313/mywork/procedural-magnifying-glass-shader/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/mywork/procedural-magnifying-glass-shader/featured.png" />
+    </item>
+    
+    <item>
+      <title>Magnifying Glass Part 2: Procedural Shader</title>
+      <link>http://localhost:1313/posts/magnifying-glass-part-2/</link>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <author>nickpattas6@gmail.com (Nick Pattas)</author>
+      <guid>http://localhost:1313/posts/magnifying-glass-part-2/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/magnifying-glass-part-2/featured.png" />
+    </item>
+    
+    <item>
+      <title>Magnifying Glass Part 1: Modeling</title>
+      <link>http://localhost:1313/posts/magnifying-glass-part-1/</link>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
       <author>nickpattas6@gmail.com (Nick Pattas)</author>
-      <guid>http://localhost:1313/posts/magnifying-glass/</guid>
+      <guid>http://localhost:1313/posts/magnifying-glass-part-1/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/magnifying-glass/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/magnifying-glass-part-1/featured.png" />
     </item>
     
     <item>
@@ -49,6 +89,16 @@
       <guid>http://localhost:1313/posts/huntrixx-card/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/huntrixx-card/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/bio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nickpattas6@gmail.com (Nick Pattas)</author>
+      <guid>http://localhost:1313/bio/</guid>
+      <description></description>
+      
     </item>
     
   </channel>

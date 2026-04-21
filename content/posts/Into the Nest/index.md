@@ -1,5 +1,6 @@
 ---
 title: "Into the Nest"
+showTableOfContents: true
 date: 2026-01-12
 ---
 

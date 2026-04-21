@@ -1,5 +1,6 @@
 ---
 title: "HUNTR/X Collectible Card"
+showTableOfContents: true
 date: 2025-11-22
 ---
 
@@ -9,7 +10,7 @@ A study on complex shaders for digital cards
 
 The key components of this shader are the *pseudo fluid shader* inside the card's frame and the *iridescence* effect that is applied on specific parts of the card.
 
-## LIQUID EFFECT
+## Liquid Effect
 
 This kind of fake liquid is an extremely common trick in video games and there are plenty of really good tutorials about it. Although, while it is such a common topic, most of the content out there is Unity based. So, I decided to replicate the core mechanics of the system in Unreal. 
 
@@ -69,7 +70,7 @@ And wrap everything up by overwriting the WobbleX and WobbleY values of the mate
 
 Now the liquid inside the card should rotate when you move the card following a pendulum motion that smoothly returns to its initial resting position when the card stops.
 
-## IRIDESCENT SURFACES
+## Iridescent Surface
 
 This kind of effect is really straightforward and easy to implement. In my take I used some noise textures (It is common to use **sine** waves instead) and a color gradient. The key component of the effect is the camera based coordinates that change the look of the texture based on the viewing angle.
 

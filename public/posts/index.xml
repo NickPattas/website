@@ -9,16 +9,26 @@
     <managingEditor>nickpattas6@gmail.com (Nick Pattas)</managingEditor>
     <webMaster>nickpattas6@gmail.com (Nick Pattas)</webMaster>
     <copyright>© 2026 Nick Pattas</copyright>
-    <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Magnifying Glass Part 1</title>
-      <link>http://localhost:1313/posts/magnifying-glass/</link>
+      <title>Magnifying Glass Part 2: Procedural Shader</title>
+      <link>http://localhost:1313/posts/magnifying-glass-part-2/</link>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <author>nickpattas6@gmail.com (Nick Pattas)</author>
+      <guid>http://localhost:1313/posts/magnifying-glass-part-2/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/magnifying-glass-part-2/featured.png" />
+    </item>
+    
+    <item>
+      <title>Magnifying Glass Part 1: Modeling</title>
+      <link>http://localhost:1313/posts/magnifying-glass-part-1/</link>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
       <author>nickpattas6@gmail.com (Nick Pattas)</author>
-      <guid>http://localhost:1313/posts/magnifying-glass/</guid>
+      <guid>http://localhost:1313/posts/magnifying-glass-part-1/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/magnifying-glass/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/magnifying-glass-part-1/featured.png" />
     </item>
     
     <item>

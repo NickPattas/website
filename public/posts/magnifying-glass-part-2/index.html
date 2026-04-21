@@ -1,0 +1,1322 @@
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="dark"
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  
+    <meta http-equiv="content-language" content="en">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color">
+
+  
+  
+    <title>Magnifying Glass Part 2: Procedural Shader &middot; Nick Pattas</title>
+    <meta name="title" content="Magnifying Glass Part 2: Procedural Shader &middot; Nick Pattas">
+  
+
+  
+  
+  
+  
+  
+  <link rel="canonical" href="http://localhost:1313/posts/magnifying-glass-part-2/">
+  
+
+  
+  
+    <meta name="author" content="Nick Pattas">
+  
+  
+    
+      
+        
+          <link href="https://www.artstation.com/nickpattas" rel="me">
+        
+      
+    
+      
+        
+          <link href="https://linkedin.com/in/nick-pattas-162672246" rel="me">
+        
+      
+    
+      
+        
+      
+    
+  
+
+  
+  <meta property="og:url" content="http://localhost:1313/posts/magnifying-glass-part-2/">
+  <meta property="og:site_name" content="Nick Pattas">
+  <meta property="og:title" content="Magnifying Glass Part 2: Procedural Shader">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-04-21T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-04-21T00:00:00+00:00">
+    <meta property="og:image" content="http://localhost:1313/posts/magnifying-glass-part-2/featured.png">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/posts/magnifying-glass-part-2/featured.png">
+  <meta name="twitter:title" content="Magnifying Glass Part 2: Procedural Shader">
+
+  
+  
+  
+  
+    
+      
+    
+  
+    
+  
+    
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.8f9b2295ad213a87a78c153724b6648a2c6ac88c94b2defd9a975c5f1a0bee04ab26f52438dd1e5c0ada2f42708e645fb894d288206e93f6ea2a89423347bda2.css"
+    integrity="sha512-j5sila0hOoenjBU3JLZkiixqyIyUst79mpdcXxoL7gSrJvUkON0eXAraL0JwjmRfuJTSiCBuk/bqKolCM0e9og==">
+
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/appearance.min.6f41174b3a05b680820fe08cadbfa5fb7a7ca347b76a0955cdc68b9d8aca1ce24f0547e138cea33bcc7904d551a90afcb1cc7f2d9fe8557075d501419046c08c.js"
+    integrity="sha512-b0EXSzoFtoCCD&#43;CMrb&#43;l&#43;3p8o0e3aglVzcaLnYrKHOJPBUfhOM6jO8x5BNVRqQr8scx/LZ/oVXB11QFBkEbAjA=="></script>
+  
+  
+  
+  
+  
+  
+    
+    <script src="/lib/zoom/zoom.min.umd.b4b722fcb5d42f34f52b30a92f3521b69f403ca9d96d0d6179eb537cb870f5d83fdf1fe836688d95d5c99fefbda4170487711006e56051fa67ea00da10521721.js" integrity="sha512-tLci/LXULzT1KzCpLzUhtp9APKnZbQ1heetTfLhw9dg/3x/oNmiNldXJn&#43;&#43;9pBcEh3EQBuVgUfpn6gDaEFIXIQ=="></script>
+  
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="/js/main.bundle.min.95bb54bed11fbcb345e424bdf4a550a6857bc4921140ee147f83af1910383478e4a0d684065757d09ad18372ce2635d1684fb3a54033263f002715ee07d62d63.js"
+      integrity="sha512-lbtUvtEfvLNF5CS99KVQpoV7xJIRQO4Uf4OvGRA4NHjkoNaEBldX0JrRg3LOJjXRaE&#43;zpUAzJj8AJxXuB9YtYw=="
+      data-copy="Copy"
+      data-copied="Copied"></script>
+  
+
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.03cb160e3cfdb2667a2e2c80d283bebcf63ff8bbc4b629c9ab2babf6fae1d0c07ad470edae783efa4fabda2ac01c58d60e63b98b3c336be8208460f08f4354f5.js" integrity="sha512-A8sWDjz9smZ6LiyA0oO&#43;vPY/&#43;LvEtinJqyur9vrh0MB61HDtrng&#43;&#43;k&#43;r2irAHFjWDmO5izwza&#43;gghGDwj0NU9Q=="></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+  
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Welcome to my Blog",
+    "name": "Magnifying Glass Part 2: Procedural Shader",
+    "headline": "Magnifying Glass Part 2: Procedural Shader",
+    
+    
+    "inLanguage": "en",
+    "url" : "http:\/\/localhost:1313\/posts\/magnifying-glass-part-2\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Nick Pattas"
+    },
+    "copyrightYear": "2026",
+    "dateCreated": "2026-04-21T00:00:00\u002b00:00",
+    "datePublished": "2026-04-21T00:00:00\u002b00:00",
+    
+    "dateModified": "2026-04-21T00:00:00\u002b00:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "932"
+  }]
+  </script>
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <body class="flex flex-col h-screen m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32 text-lg bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content">
+        <span class="font-bold text-primary-600 pe-2 dark:text-primary-400">&darr;</span>
+        Skip to main content
+      </a>
+    </div>
+    
+    
+      <div class="min-h-[148px]"></div>
+<div
+  class="fixed inset-x-0 min-h-[130px] opacity-65 bg-gradient-to-b from-neutral from-60% dark:from-neutral-800 to-transparent mix-blend-normal z-80"></div>
+<div class="fixed inset-x-0 z-100">
+  <div
+    id="menu-blur"
+    class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div
+  class="main-menu flex items-center justify-between py-6 md:justify-start gap-x-3 pt-[2px] pr-2 md:pr-4 pb-[3px] pl-0">
+  
+  
+
+  <div class="flex flex-1 items-center justify-between">
+    <nav class="flex space-x-3">
+      
+        <a href="/" class="text-base font-medium">
+          Nick Pattas
+        </a>
+      
+    </nav>
+    
+  <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
+    
+      
+        
+  <a
+  href="/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Home"
+  title="Nick Pattas">
+  
+  
+    <p class="text-base font-medium">
+      Home
+    </p>
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="/bio/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="About"
+  title="Resume">
+  
+  
+    <p class="text-base font-medium">
+      About
+    </p>
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="/mywork/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Portfolio"
+  title="My Work">
+  
+  
+    <p class="text-base font-medium">
+      Portfolio
+    </p>
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="/posts/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Blog"
+  title="Welcome to my Blog">
+  
+  
+    <p class="text-base font-medium">
+      Blog
+    </p>
+  
+</a>
+
+
+
+      
+    
+
+    
+
+    
+
+    
+
+    
+      <div class=" flex items-center">
+        <button
+          id="appearance-switcher"
+          aria-label="Dark mode switcher"
+          type="button"
+          class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+          <div class="flex items-center justify-center dark:hidden">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+          </div>
+          <div class="items-center justify-center hidden dark:flex">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+          </div>
+        </button>
+      </div>
+    
+  </nav>
+
+    
+  <div class="flex md:hidden items-center gap-x-5 md:ml-12 h-12">
+    <span></span>
+
+    
+
+    
+
+    
+
+    
+      <button
+        id="appearance-switcher-mobile"
+        aria-label="Dark mode switcher"
+        type="button"
+        class="text-base hover:text-primary-600 dark:hover:text-primary-400 me-1">
+        <div class="flex items-center justify-center dark:hidden">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+        </div>
+        <div class="items-center justify-center hidden dark:flex">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+        </div>
+      </button>
+    
+  </div>
+
+  </div>
+  
+  <div class="-my-2 md:hidden">
+    <div id="menu-button" class="block">
+      
+        <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+        </div>
+        <div
+          id="menu-wrapper"
+          class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50 pt-[5px]">
+          <ul
+            class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none text-end max-w-7xl">
+            <li id="menu-close-button">
+              <span
+                class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+                <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+              </span>
+            </li>
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Home"
+    title="Nick Pattas">
+    
+    
+      <p class="text-bg font-bg">
+        Home
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/bio/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="About"
+    title="Resume">
+    
+    
+      <p class="text-bg font-bg">
+        About
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/mywork/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Portfolio"
+    title="My Work">
+    
+    
+      <p class="text-bg font-bg">
+        Portfolio
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/posts/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Blog"
+    title="Welcome to my Blog">
+    
+    
+      <p class="text-bg font-bg">
+        Blog
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+
+          </ul>
+          
+        </div>
+      
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<script
+  type="text/javascript"
+  src="/js/background-blur.min.00a57c73ea12f2cab2980c3c3d649e89f6d82f190f74bbe2b67f2f5e39ab7d032ece47086400ca05396758aace13299da49aca43ea643d2625e62c506267a169.js"
+  integrity="sha512-AKV8c&#43;oS8sqymAw8PWSeifbYLxkPdLvitn8vXjmrfQMuzkcIZADKBTlnWKrOEymdpJrKQ&#43;pkPSYl5ixQYmehaQ=="
+  data-blur-id="menu-blur"></script>
+
+    
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+        
+  
+  <article>
+    
+    
+      
+      
+      
+      
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+
+
+
+  
+    
+    
+      
+      
+    
+  
+
+
+
+
+
+    <div id="hero" class="h-[150px] md:h-[200px]"></div>
+  
+  <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom">
+    
+    
+    
+    <img
+      id="background-image"
+      src="/posts/magnifying-glass-part-2/featured_hu_86a0cb1e8cce161d.png"
+      alt="Magnifying Glass Part 2: Procedural Shader"
+      loading="eager"
+      decoding="async"
+      fetchpriority="high"
+      class="absolute inset-0 w-full h-full object-cover"
+      >
+    <div
+      class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal"></div>
+    <div
+      class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal"></div>
+  </div>
+
+  
+    <div
+      id="background-blur"
+      class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/background-blur.min.00a57c73ea12f2cab2980c3c3d649e89f6d82f190f74bbe2b67f2f5e39ab7d032ece47086400ca05396758aace13299da49aca43ea643d2625e62c506267a169.js"
+      integrity="sha512-AKV8c&#43;oS8sqymAw8PWSeifbYLxkPdLvitn8vXjmrfQMuzkcIZADKBTlnWKrOEymdpJrKQ&#43;pkPSYl5ixQYmehaQ=="
+      data-blur-id="background-blur"
+      data-image-id="background-image"
+      data-image-url="/posts/magnifying-glass-part-2/featured_hu_86a0cb1e8cce161d.png"></script>
+  
+      
+    
+
+    
+    <header id="single_header" class="mt-5 max-w-prose">
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Magnifying Glass Part 2: Procedural Shader
+      </h1>
+      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2026-04-21T00:00:00&#43;00:00">21 April 2026</time><span class="px-2 text-primary-500">&middot;</span><span>932 words</span>
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+
+  
+  
+
+
+
+      </div>
+      
+    </header>
+
+    
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+      
+      
+      
+      
+        <div class="order-first lg:ml-auto px-0 lg:order-last lg:ps-8 lg:max-w-2xs">
+          <div class="toc ps-5 print:hidden lg:sticky lg:top-[140px]">
+            
+              <details
+  open
+  id="TOCView"
+  class="toc-right mt-0 overflow-y-auto overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg -ms-5 ps-5 pe-2 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-s-1 -ms-5 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#sample-the-scene-color">Sample the Scene Color</a></li>
+    <li><a href="#creating-the-actor">Creating the Actor</a></li>
+    <li><a href="#some-shader-magic">Some shader magic</a></li>
+    <li><a href="#used-it-in-game">Used it in game</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#assets">Assets</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg -ms-5 ps-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#sample-the-scene-color">Sample the Scene Color</a></li>
+    <li><a href="#creating-the-actor">Creating the Actor</a></li>
+    <li><a href="#some-shader-magic">Some shader magic</a></li>
+    <li><a href="#used-it-in-game">Used it in game</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#assets">Assets</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+
+
+            
+          </div>
+        </div>
+      
+
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+
+        <div class="article-content max-w-prose mb-20">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/g3TGO4nfVJ0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<video width="100%" controls>
+  <source src="mg_breakdown.mp4" type="video/mp4">
+</video>
+<p>The goal of this project was to create a procedural magnifying glass shader that actually let me art direct properties like image distortion, magnifying amount and reflections on the lens.</p>
+
+<h2 class="relative group">Sample the Scene Color
+    <div id="sample-the-scene-color" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#sample-the-scene-color" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>The first step to achieve this was to find an efficient way to sample the scene color inside a simple Unlit material. The reason was that I wanted to control the Mipmap values to create a blurriness (de-focusing) illusion when the distance between the lens and a surface is increased.</p>
+<p>And for one more time Niagara&rsquo;s Grid 2D was extremely handy. Utilizing the Gbuffer interface inside Niagara I wrote the Scene Color properties in a dynamic Render Target with controllable resolution. That technique, not only gave me control over the mipmaps but also allowed me to control the general size of the render target to either keep my effect lightweight or highly sharp when it&rsquo;s needed.</p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="742"
+    height="817"
+    src="/posts/magnifying-glass-part-2/assets/img/niagara.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/niagara.png 800w, /posts/magnifying-glass-part-2/assets/img/niagara.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/niagara.png"></figure>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="2593"
+    height="1134"
+    src="/posts/magnifying-glass-part-2/assets/img/grid_init_hu_581dd8038b590b76.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/grid_init_hu_581dd8038b590b76.png 800w, /posts/magnifying-glass-part-2/assets/img/grid_init_hu_6e1d52eee96ef205.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/grid_init.png"></figure>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="1770"
+    height="679"
+    src="/posts/magnifying-glass-part-2/assets/img/grid_res_hu_70c795ebe33b7fc4.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/grid_res_hu_70c795ebe33b7fc4.png 800w, /posts/magnifying-glass-part-2/assets/img/grid_res_hu_ee28f6cf2c9d541a.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/grid_res.png"></figure>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="1776"
+    height="682"
+    src="/posts/magnifying-glass-part-2/assets/img/rt_write_hu_60ef9a12d1b7eab0.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/rt_write_hu_60ef9a12d1b7eab0.png 800w, /posts/magnifying-glass-part-2/assets/img/rt_write_hu_260e6eb282978661.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/rt_write.png"></figure>
+
+<h2 class="relative group">Creating the Actor
+    <div id="creating-the-actor" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#creating-the-actor" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Then, I created a blueprint actor with the actual magnifying glass geometry (see my previous article), the Niagara System that writes the Scene Color into the Render Target, a placeholder Sphere geometry that is invisible in gameplay and a collision trigger sphere.</p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="889"
+    height="1170"
+    src="/posts/magnifying-glass-part-2/assets/img/bp_setup_hu_563b3fa2f31f56a2.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/bp_setup_hu_563b3fa2f31f56a2.png 800w, /posts/magnifying-glass-part-2/assets/img/bp_setup.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/bp_setup.png"></figure>
+<p>The sphere geo was placed at the center of the lens and called &ldquo;Focal Point&rdquo;. Its position was used to shoot a line trace in every tick that searches for geometries with a specified Trace Channel in the level. The idea behind this setup was to avoid an annoying snapping when the line trace was changing size fast. I created a new Trace Channel called Magnifying and set it to Ignore for all objects except those I wanted to be my actual targets for my glass. Those objects were large (and ideally flat) surfaces like walls, tables, boxes etc. Then I used the calculated distance between the surface and my focal point to calculate the magnifying amount and the focus of my lens.</p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="1702"
+    height="802"
+    src="/posts/magnifying-glass-part-2/assets/img/line_trace_01_hu_b272441a30dea0df.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/line_trace_01_hu_b272441a30dea0df.png 800w, /posts/magnifying-glass-part-2/assets/img/line_trace_01_hu_3ab4bd04770a171b.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/line_trace_01.png"></figure>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="1378"
+    height="1264"
+    src="/posts/magnifying-glass-part-2/assets/img/line_hu_58b1cc2a434ddbe4.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/line_hu_58b1cc2a434ddbe4.png 800w, /posts/magnifying-glass-part-2/assets/img/line_hu_b08f6aac029f9a8.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/line.png"></figure>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="349"
+    height="247"
+    src="/posts/magnifying-glass-part-2/assets/img/trace_channel.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/trace_channel.png 800w, /posts/magnifying-glass-part-2/assets/img/trace_channel.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/trace_channel.png"></figure>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="760"
+    height="700"
+    src="/posts/magnifying-glass-part-2/assets/img/collisions.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/collisions.png 800w, /posts/magnifying-glass-part-2/assets/img/collisions.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/collisions.png"></figure>
+
+<h2 class="relative group">Some shader magic
+    <div id="some-shader-magic" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#some-shader-magic" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>The values were stored in a Material Parameter Collection to easily connect the Blueprint, Shader and Niagara setups.</p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="1780"
+    height="670"
+    src="/posts/magnifying-glass-part-2/assets/img/remap_hu_491c7bf32f76393c.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/remap_hu_491c7bf32f76393c.png 800w, /posts/magnifying-glass-part-2/assets/img/remap_hu_81e32031286c3bd5.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/remap.png"></figure>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="1987"
+    height="510"
+    src="/posts/magnifying-glass-part-2/assets/img/resolution_hu_198da5b2c3df6bc7.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/resolution_hu_198da5b2c3df6bc7.png 800w, /posts/magnifying-glass-part-2/assets/img/resolution_hu_451975c0c0fb19d6.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/resolution.png"></figure>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="628"
+    height="1333"
+    src="/posts/magnifying-glass-part-2/assets/img/mpc_float.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/mpc_float.png 800w, /posts/magnifying-glass-part-2/assets/img/mpc_float.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/mpc_float.png"></figure>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="640"
+    height="574"
+    src="/posts/magnifying-glass-part-2/assets/img/mpc_vector.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/mpc_vector.png 800w, /posts/magnifying-glass-part-2/assets/img/mpc_vector.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/mpc_vector.png"></figure>
+<p>The shader was developed around the idea of faking as much as possible without sacrificing much of its realism.</p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="2764"
+    height="1159"
+    src="/posts/magnifying-glass-part-2/assets/img/material_overview_hu_fd4e5817eacd5fc.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/material_overview_hu_fd4e5817eacd5fc.png 800w, /posts/magnifying-glass-part-2/assets/img/material_overview_hu_7a1117dd322419d9.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/material_overview.png"></figure>
+<p>The key property of the shader was a spherical normals texture that was used as the base of every other effect.</p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="1761"
+    height="697"
+    src="/posts/magnifying-glass-part-2/assets/img/normals_hu_77cd4729f5dcf97.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/normals_hu_77cd4729f5dcf97.png 800w, /posts/magnifying-glass-part-2/assets/img/normals_hu_f47aaad68452657e.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/normals.png"></figure>
+<p>The spherical distortions were the most tricky part of the whole system because they were the actual selling point. They had to be as physically based as possible and art-directable at the same time.</p>
+<p>The screen space UVs combined with the spherical normals allowed me to distort the edges of the lens while keeping the center undistorted. At the same time, using the &ldquo;Scale UVs by Center&rdquo; node, I managed to have a similar effect for the magnifying amount in reverse (scaled up mostly in the center), creating an almost fish-eye like behaviour.</p>
+<p>As discussed earlier, I used the mip levels (0-9) of the texture to create the defocusing effect. A float curve helped the transition from the sharp to the blur stage become smoother at the start and increase exponentially when the lens is far away from the surface.</p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="2866"
+    height="937"
+    src="/posts/magnifying-glass-part-2/assets/img/distortions_hu_bed47021cfee8132.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/distortions_hu_bed47021cfee8132.png 800w, /posts/magnifying-glass-part-2/assets/img/distortions_hu_d89737a726083d3.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/distortions.png"></figure>
+<p>At this point I had managed to create a nice and controllable lens effect but it was still not convincing enough. There is no true lens without proper light interaction.</p>
+<p>The first, and most important thing was the reflections. To keep the effect optimized I decided to use a HDRI setup with a reflection vector. The &ldquo;Sky Light Env Map Sample&rdquo; was extremely helpful as it samples the Sky Light of each level automatically and also gives a Roughness value that in the custom HDRI setup was faked using mip levels again.</p>
+<p>The PBR or stylized lighting setups that can be used are almost infinite and can be scaled in extreme complexity. In this specific project I decided to keep it as lightweight and simple as possible and make sure that I won&rsquo;t spare much time on things that won&rsquo;t be visible or add any relevant details to the effect.</p>
+<p>The switch parameter that changes the Sky Light with a Studio HDRI was used for the turntable render (see previous article). Also, the UVs rotator was used to fake the rotation of the reflections on the lens in the turntable render. That was critical to create convincing reflections on the beauty render but quite overkill in gameplay, so the switch values keep the shader clean from unnecessary calculations.</p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="2148"
+    height="975"
+    src="/posts/magnifying-glass-part-2/assets/img/reflections_hu_1048ecbb1b3cb571.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/reflections_hu_1048ecbb1b3cb571.png 800w, /posts/magnifying-glass-part-2/assets/img/reflections_hu_23b4e296831636ef.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/reflections.png"></figure>
+<p>In the final stage of the shader I created some custom highlights and shadows on the lens by using BW masks based on Normals and custom vectors. Then I added a color tint based on the directional light&rsquo;s color of the scene to help the projected image blend properly with the environment, like the light is coming through colorized glass.</p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="2866"
+    height="1459"
+    src="/posts/magnifying-glass-part-2/assets/img/light_calculations_hu_3ccbfa0a49f4c1af.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/light_calculations_hu_3ccbfa0a49f4c1af.png 800w, /posts/magnifying-glass-part-2/assets/img/light_calculations_hu_bf3921c82f5a90c1.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/light_calculations.png"></figure>
+<p>Last but not least, a fake shadow based on a sphere mask was used to create a fake glass-caustic effect that ended up far more convincing than I initially expected. Not an extremely important addition but a nice touch nevertheless.</p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="847"
+    height="997"
+    src="/posts/magnifying-glass-part-2/assets/img/shadow_hu_4ecdea22647550df.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/shadow_hu_4ecdea22647550df.png 800w, /posts/magnifying-glass-part-2/assets/img/shadow.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/shadow.png"></figure>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="1050"
+    height="682"
+    src="/posts/magnifying-glass-part-2/assets/img/mi_glass_hu_e2fdadd0ac919b2.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/mi_glass_hu_e2fdadd0ac919b2.png 800w, /posts/magnifying-glass-part-2/assets/img/mi_glass.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/mi_glass.png"></figure>
+
+<h2 class="relative group">Used it in game
+    <div id="used-it-in-game" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#used-it-in-game" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>On the interactivity side, the collision sphere of the actor was used to add a simple logic of picking up the magnifying glass to test it in actual gameplay simulation.</p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="769"
+    height="274"
+    src="/posts/magnifying-glass-part-2/assets/img/destroy.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/destroy.png 800w, /posts/magnifying-glass-part-2/assets/img/destroy.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/destroy.png"></figure>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="1570"
+    height="555"
+    src="/posts/magnifying-glass-part-2/assets/img/interact_hu_6d9a5bff9e13be1c.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/interact_hu_6d9a5bff9e13be1c.png 800w, /posts/magnifying-glass-part-2/assets/img/interact_hu_4031552790d95204.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/interact.png"></figure>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="2038"
+    height="949"
+    src="/posts/magnifying-glass-part-2/assets/img/grab_hu_30eb8321b8ed968c.png"
+    srcset="/posts/magnifying-glass-part-2/assets/img/grab_hu_30eb8321b8ed968c.png 800w, /posts/magnifying-glass-part-2/assets/img/grab_hu_c071b14803597098.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/magnifying-glass-part-2/assets/img/grab.png"></figure>
+
+<h2 class="relative group">Conclusion
+    <div id="conclusion" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#conclusion" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>I&rsquo;m really happy with the results of the project and learned a lot of fun little tricks along the way. I hope that there are more people that will find these ideas interesting and find a way to incorporate them in their games or interactive projects.</p>
+
+<h2 class="relative group">Assets
+    <div id="assets" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#assets" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li>Environment by Anatolii Umanets in Fab: <a
+  href="https://www.fab.com/listings/82fea2b7-ffde-4a9f-9ec7-17faa7504477"
+    target="_blank"
+  >https://www.fab.com/listings/82fea2b7-ffde-4a9f-9ec7-17faa7504477</a></li>
+</ul>
+
+          
+          
+          
+        </div>
+        
+          
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+        
+        
+
+        
+
+        
+
+      </div>
+
+      
+      
+        
+        
+          
+          
+        
+        
+        
+        <script
+          type="text/javascript"
+          src="/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
+          integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
+          data-oid="views_Posts/Magnifying Glass Part 2/index.md"
+          data-oid-likes="likes_Posts/Magnifying Glass Part 2/index.md"></script>
+      
+    </section>
+
+    
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+      <div class="flex justify-between pt-3">
+        <span class="flex flex-col">
+          
+            <a
+              class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+              href="/posts/magnifying-glass-part-1/">
+              <span class="leading-6">
+                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;Magnifying Glass Part 1: Modeling
+              </span>
+            </a>
+            
+              <span class="ms-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                <time datetime="2026-04-04T00:00:00&#43;00:00">4 April 2026</time>
+              </span>
+            
+          
+        </span>
+        <span class="flex flex-col items-end">
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+        
+
+
+  
+
+
+
+
+
+
+<div
+  id="scroll-to-top"
+  class="fixed bottom-6 end-6 z-50 transform translate-y-4 opacity-0 duration-200">
+  <a
+    href="#the-top"
+    class="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top"
+    title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+
+      </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+  
+  <div class="flex items-center justify-between">
+    
+    
+      <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          &copy;
+          2026
+          Nick Pattas
+      </p>
+    
+
+    
+    
+      <p class="text-xs text-neutral-500 dark:text-neutral-400">
+        
+        
+        Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
+      </p>
+    
+  </div>
+  
+    <script>
+      mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+        margin: 24,
+        background: "rgba(0,0,0,0.5)",
+        scrollOffset: 0,
+      });
+    </script>
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
+    integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  
+</footer>
+
+    </div>
+  </body>
+  
+</html>

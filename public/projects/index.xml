@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Where my work has landed on Nick Pattas</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Where my work has landed on Nick Pattas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>nickpattas6@gmail.com (Nick Pattas)</managingEditor>
+    <webMaster>nickpattas6@gmail.com (Nick Pattas)</webMaster>
+    <copyright>© 2026 Nick Pattas</copyright>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>

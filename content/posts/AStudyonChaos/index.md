@@ -1,5 +1,6 @@
 ---
 title: "A Study on Chaos"
+showTableOfContents: true
 date: 2025-12-20
 ---
 

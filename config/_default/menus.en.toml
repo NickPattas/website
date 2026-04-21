@@ -18,12 +18,22 @@
 [[main]]
   name = "About"
   pageRef = "Bio"
-  weight = 10
+  weight = 2
+
+[[main]]
+  name = "Portfolio"
+  pageRef = "MyWork"
+  weight = 2
 
 [[main]]
   name = "Blog"
   pageRef = "Posts"
-  weight = 10
+  weight = 3
+
+#[[main]]
+#  name = "Titles"
+#  pageRef = "Projects"
+#  weight = 13
 
 #[[main]]
 #  name = "Parent"
