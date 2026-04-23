@@ -8,7 +8,7 @@ layout: "simple"
 ### *Heroes in Training - Number 9 Greece - Real time VFX*
 [![](img/hit.png)](https://www.number9gr.com/)
 
-Authored real-time VFX for a 14-episode animated series.
+Authored real-time VFX for a 14 episode season.
 
 Tools: Unreal Engine 5, Embergen, Houdini, Blender, Photoshop
 
