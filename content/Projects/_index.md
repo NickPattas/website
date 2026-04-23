@@ -10,7 +10,7 @@ layout: "simple"
 
 Authored real-time VFX for a 14-episode season.
 
-Tools: Unreal Engine 5, Embergen, Houdini, Blender, Photoshop
+Tools: Unreal Engine 5, Embergen, Houdini, Blender, Photoshop, Substance 3D Designer
 
 ---
 
