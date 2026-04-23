@@ -1,5 +1,5 @@
 ---
-title: "Sun Fire Beam - Somber Echoes"
+title: "Somber Echoes - VFX"
 showReadingTime: false
 showDate: false
 showWordCount: false
