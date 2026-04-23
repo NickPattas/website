@@ -11,6 +11,7 @@ layout: "simple"
 Authored real-time VFX for a 14-episode animated series.
 
 Tools: Unreal Engine 5, Embergen, Houdini, Blender, Photoshop
+
 ---
 
 ### *Somber Echoes - Rock Pocket Games - Real time VFX*
@@ -19,4 +20,5 @@ Tools: Unreal Engine 5, Embergen, Houdini, Blender, Photoshop
 Responsible for real-time VFX across the final two boss encounters.
 
 Tools: Unreal Engine 5, Houdini, Blender, Photoshop
+
 ---
