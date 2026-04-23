@@ -15,6 +15,6 @@ Software used:
 
 Responsible for real-time VFX across the final two boss encounters. Authored multiple Niagara particle systems and custom materials to support gameplay-driven effects.
 
-{{< youtube YL3VLYgKzth-5s8B >}}
+{{< youtube MPWjkg9kyMs >}}
 {{< youtube vnFoQcIwFII >}}
 
