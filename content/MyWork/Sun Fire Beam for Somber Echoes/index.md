@@ -1,5 +1,5 @@
 ---
-title: "Somber Echoes - VFX"
+title: "Somber Echoes - Boss Fight VFX"
 showReadingTime: false
 showDate: false
 showWordCount: false
@@ -15,5 +15,6 @@ Software used:
 
 Responsible for real-time VFX across the final two boss encounters. Authored multiple Niagara particle systems and custom materials to support gameplay-driven effects.
 
+{{< youtube YL3VLYgKzth-5s8B >}}
 {{< youtube vnFoQcIwFII >}}
 
