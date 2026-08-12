@@ -9,7 +9,7 @@ showRecent: false
 
 Hey there! I'm Nick Pattas, a VFX Technical Artist working with Unreal Engine since 2021, currently making effects for Vertpaint Studios.
 
-My journey in real-time VFX started at Number 9 Greece, on the animated series *Heroes in Training* by Redefine Originals. In 2024, I had the honor of contributing a small part as a VFX Artist on *Somber Echoes*, a metroidvania title by RockPocket Games.
+My journey in real-time VFX started at Number 9 Greece, working on the animated series *Heroes in Training* by Redefine Originals. In 2024, I had the honor of playing a small part as a VFX Artist on *Somber Echoes*, a metroidvania title by RockPocket Games.
 
 I specialize in simulations (fluids, RBD), shaders, and Blueprint implementation, working mainly in Unreal Engine, Houdini, EmberGen, Blender, and Photoshop. I'm definitely not a programmer (yet), but I'm more than willing to get my hands dirty with code, from Unreal's C++ and HLSL to custom Python scripts for building awesome tools.
 
