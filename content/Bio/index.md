@@ -7,24 +7,29 @@ showWordCount: false
 showRecent: false
 ---
 
-Hey there! I'm Nick Pattas, a VFX Technical Artist working with Unreal Engine since 2021.
-I was part of the VFX team at Number 9 Greece for the animated series Heroes in Training by Redefine Originals.
-In 2024, I worked as a VFX Artist for the metroidvania game Somber Echoes by RockPocket Games.
-I'm currently working on the new horror title, Khaos delivering visually striking and occasionally creepy visual effects.
+Hey there! I'm Nick Pattas, a VFX Technical Artist working with Unreal Engine since 2021, currently making effects for Vertpaint Studios.
 
-My main areas of specialization are simulations (fluids, rbd), shaders, and Blueprint implementations. I’m proficient in Unreal Engine, Houdini, Embergen, Blender, and Photoshop, and I can quickly adapt to new tools and workflows.
-I'm definitely not a programmer (yet), but I'm more than willing to get my hands dirty with code, from Unreal's C++ and HLSL to custom Python scripts for making awesome tools.
+My journey in real-time VFX started at Number 9 Greece, on the animated series *Heroes in Training* by Redefine Originals. In 2024, I had the honor of contributing as a VFX Artist on *Somber Echoes*, a metroidvania by RockPocket Games.
 
-Alongside my professional career, I'm constantly developing personal projects ranging from Virtual Production to mobile game development. Basically, every screen and medium is my playground.
-Through the indie creative hub that I co-founded with Achilles Apostolou, Blurspot, I've worked on more than 20 audiovisual projects across different formats and scales.
-Since 2021, I've also been part of an international team developing a unique mobile game in Unreal Engine, which we hope will impress upon release.
+I specialize in simulations (fluids, RBD), shaders, and Blueprint implementation, working mainly in Unreal Engine, Houdini, EmberGen, Blender, and Photoshop. I'm definitely not a programmer (yet), but I'm more than willing to get my hands dirty with code, from Unreal's C++ and HLSL to custom Python scripts for building awesome tools.
 
-On this website, you can find some of my personal projects that I work on in my free time, with as detailed a breakdown as possible.
-Always looking to collaborate with passionate people on crazy projects, so don't hesitate to reach out.
+Alongside client work, I'm constantly cooking up personal projects, from virtual production to mobile game development. Basically, every screen and medium is my playground. Through Blurspot, the indie creative hub I co-founded with Achilleas Apostolou, I've worked on 20+ audiovisual projects across all kinds of formats and scales.
+
+On this site you'll find the personal projects I work on in my free time, with as detailed a breakdown as I could manage. Always looking to collaborate with passionate people on crazy projects, so don't hesitate to reach out.
 
 ---
 
 ## Work Experience
+
+### *VFX Artist - Unannounced Game*
+*Vertpaint Studios, Contract** - *May 2026 – Present*
+
+Real time visual effects in Unreal Engine 5
+
+- Niagara systems, Shaders, Blueprints
+- Simulations (Houdini, Chaos Physics)
+
+---
 
 ### *VFX Artist - Khaos (Multiplatform Game)*
 **Visions of.. Games, Contract** - *April 2025 – April 2026*
@@ -32,7 +37,7 @@ Always looking to collaborate with passionate people on crazy projects, so don't
 Real time visual effects in Unreal Engine 5
 
 - Niagara systems, Shaders, Blueprints
-- Simulations with Houdini (Flipbooks, VAT and Procedural Textures)
+- Simulations in Houdini (Flipbooks, VAT and Procedural Textures)
 
 ---
 
@@ -42,8 +47,8 @@ Real time visual effects in Unreal Engine 5
 Real time visual effects in Unreal Engine 5
 
 - Niagara systems, Shaders, Blueprints
-- Fluid Simulations with Embergen and Houdini (Flipbooks and VDBs)
-- RBD Simulations with Houdini and Chaos physics
+- Fluid Simulations in Embergen and Houdini (Flipbooks and VDBs)
+- RBD Simulations in Houdini and Chaos physics
 
 ---
 
